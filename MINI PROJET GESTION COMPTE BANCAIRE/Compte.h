@@ -7,10 +7,11 @@ class Compte
     char *identifiant;
     char *nom;
     char *prenom;
-    int numero;
-    int solde;
+    double numero;
+    double solde;
+    char *RIB;
     public:
-    Compte(char *,char *,char *,int, int);
+    Compte(char *,char *,char *,double, double,char *);
     float Credit();
     float Debit();
     float Consulter();
