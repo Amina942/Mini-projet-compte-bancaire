@@ -16,5 +16,6 @@ class Compte
     float Debit();
     float Consulter();
     float Virement();
+    float Commander();
     void Afficher();
 };

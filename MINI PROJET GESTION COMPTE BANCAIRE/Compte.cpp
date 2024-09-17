@@ -41,7 +41,7 @@ float Compte::Debit()
 {
     system("CLS");
     cout<<"  1: Retirer de l'argent"<<endl;
-    //cout<<"  2: Retirer de l'argent d'un autre compte"<<endl;
+    cout<<"  2: Retirer de l'argent d'un autre compte"<<endl;
     unsigned int choix;
     cin>>choix;
     if (choix>=1)
@@ -109,6 +109,11 @@ float Compte::Virement()
         cout<<"\n Erreur \n\n Votre solde est : "<<solde<<endl;
     }
     }
+}
+float Compte::Commander()
+{
+    system("CLS");
+    cout<<"  1: Commander un produit"<<endl;
 }
 void Compte::Afficher()
 {
