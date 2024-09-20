@@ -57,8 +57,7 @@ float Compte::Credit()
             system("CLS");
             cout<<"\n Erreur \n\n Votre solde est : "<<solde<<endl;
         }
-        system("CLS");
-        
+        system("CLS");    
     }
     return 0;
 }
@@ -80,9 +79,6 @@ float Compte::Debit()
         }
         choix = 0;
         return 0;
-    
-    
-
 }
 
 float Compte::Consulter()
